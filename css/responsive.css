@@ -11,7 +11,7 @@
         align-items: center;
         margin-bottom: 15%;
     }
-    main .main-content .text, .techs{
+    main .main-content .text, .techs .projetos-conteiner{
         text-align: center;
     }
     main .main-content .text p{
@@ -44,12 +44,20 @@
         width: 45px;
         height: 45px;
     }
-    main .main-content .text h2, .main-content .techs h2{
+    main .main-content .text h2, .main-content .techs h2, .projetos-conteiner h2{
         font-size: 1.8em;
+        text-align: center;
     }
     main figure img{
         width: 200px;
         height: 200px;
+    }
+    main .projetos-conteiner{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 /*
